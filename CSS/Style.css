@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+body{
+    font-family: 'Roboto', sans-serif;
+    width: 874px;
+    height: 1240;
+    margin: auto;
+    background-color: rgb(179, 179, 179);
+}
+p{
+    font-size: 16px;
+    line-height: 22px;
+    color: #222222;
+}
+li{
+    font-size: 16px;
+    line-height: 22px;
+    color: #222222;
+}
+#sec-mid{
+    width: 574px;
+    height: 800px;
+    float: left;
+    background-color: #FFFFFF;
+    padding-top: 100px;
+
+}
+aside{
+    width: 300px;
+    height: 800px;
+    float: right;
+    background-color: #19304F;
+    color: #FFFFFF;
+    padding-top: 100px;
+}
+.div-main{
+    text-align: left;
+    margin: 30px;
+    margin-top: 36px;
+}
+.title-main{
+    font-size: 20px;
+    color: #19304F;
+}
+#cabecalho{
+    height: 160px;
+    width: 574px;
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: center;
+    
+}
+#nome-cargo{
+    text-align: center;
+    line-height: 6px;
+    justify-content: space-between;
+    margin-left: 11px;
+}
+#nome{
+    font-size: 20px;
+    color: #19304F;
+}
+#img-div{
+    width: 130px;
+    height: 160px;
+    
+    margin-left: 30px;
+}
+#img{
+    width: 130px;
+    height: 160px;
+    border-radius: 100px;
+}
+.title-aside{
+    margin: 10px;
+    margin-left: 20px;
+    margin-top: 70px;
+    margin-bottom: 25px;
+}
+.dados{
+    margin: 10px;
+    margin-left: 20px;
+    color: #FFFFFF;
+    line-height: 15px;
+}
+.modulos{
+    margin: 9px;   
+    color: #FFFFFF;     
+    border-bottom: 2px solid #FFFFFF;
+}
+#tabela{
+    margin-left: 20px;
+    width: 170px;
+}
+.social-icon{
+    width: 25px;
+    height: 25px;
+    margin-left: 12px;
+}
+.social-icon:hover{
+    box-shadow: 2px 2px 3px rgb(4, 121, 255);
+}
+#icons{
+    text-align: center;
+    margin-top: 20px;
+    margin-right: 50px;
+}
+footer{
+    background-color: #19304F;
+    text-align: center;
+    color: #FFFFFF;
+}
