@@ -2,7 +2,6 @@
 body{
     font-family: 'Roboto', sans-serif;
     width: 874px;
-    height: 1240;
     margin: auto;
     background-color: rgb(179, 179, 179);
 }
@@ -90,7 +89,7 @@ aside{
 }
 #tabela{
     margin-left: 20px;
-    width: 170px;
+    width: 210px;
 }
 .social-icon{
     width: 25px;
@@ -110,4 +109,9 @@ footer{
     text-align: center;
     color: #FFFFFF;
     font-size: 12px;
+}
+@media (max-width: 350px) {
+    body{
+        display: block;
+    }
 }
